@@ -14,7 +14,6 @@ Used for personal quick home lab diagnosis. (Personal use only)
 * netsh wlan show interfaces — signal strength, channel, current SSID
 * netsh winsock reset / netsh int ip reset — resets Winsock / full TCP-IP stack, the fix for stubborn "no internet" after malware or VPN     weirdness
 * Test-NetConnection <host> -Port 443 (PowerShell) — modern combined ping + port check
-* ipconfig /flushdns
 
 # System info & health
 * systeminfo — OS build, install date, hotfixes, memory, boot time; good first command on an unfamiliar machine
